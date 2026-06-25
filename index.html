@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Timo4D - Your trusted online supermarket for fresh groceries, quality food & daily essentials. Order online and get fast delivery. Shop quality products at great prices.">
+    <meta name="keywords" content="timo4d, online supermarket, grocery delivery, fresh food, quality products, buy food online, food delivery">
+    <meta name="author" content="Timo4D Supermarket">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags for Social Sharing -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Timo4D - Premium Online Supermarket & Grocery Delivery">
+    <meta property="og:description" content="Shop fresh groceries, quality food & daily essentials at Timo4D. Fast delivery, best prices, trusted service. Your online supermarket.">
+    <meta property="og:url" content="https://timo4d.site">
+    <meta property="og:image" content="https://timo4d.site/og-image.jpg">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Timo4D - Premium Online Supermarket">
+    <meta name="twitter:description" content="Order fresh groceries online at Timo4D supermarket. Quality products with fast delivery.">
+    <meta name="twitter:image" content="https://timo4d.site/twitter-image.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://timo4d.site/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Structured Data (Schema.org) for EEAT -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Timo4D Supermarket",
+        "description": "Premium online supermarket for fresh groceries, quality food and daily essentials with fast delivery",
+        "url": "https://timo4d.site",
+        "telephone": "+1-800-TIMO4D",
+        "email": "support@timo4d.site",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "123 Market Street",
+            "addressLocality": "Your City",
+            "addressRegion": "Your State",
+            "postalCode": "12345",
+            "addressCountry": "US"
+        },
+        "image": "https://timo4d.site/logo.png",
+        "sameAs": [
+            "https://www.facebook.com/timo4d",
+            "https://www.instagram.com/timo4d",
+            "https://twitter.com/timo4d"
+        ],
+        "priceRange": "$",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "ratingCount": "2450"
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "author": {
+                    "@type": "Person",
+                    "name": "Sarah Johnson"
+                },
+                "datePublished": "2024-01-15",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "5"
+                },
+                "reviewBody": "Excellent service! Fresh products and fast delivery. Timo4D is my go-to supermarket."
+            },
+            {
+                "@type": "Review",
+                "author": {
+                    "@type": "Person",
+                    "name": "Michael Chen"
+                },
+                "datePublished": "2024-01-10",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "5"
+                },
+                "reviewBody": "Best prices on quality groceries. Customer service is responsive and helpful."
+            }
+        ]
+    }
+    </script>
+    
+    <!-- Additional Schema for Organization -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Timo4D",
+        "legalName": "Timo4D Supermarket Inc.",
+        "url": "https://timo4d.site",
+        "logo": "https://timo4d.site/logo.png",
+        "description": "Premium online supermarket offering fresh groceries, quality food products and daily essentials with reliable fast delivery service.",
+        "founder": {
+            "@type": "Person",
+            "name": "Timo4D Team"
+        },
+        "foundingDate": "2024",
+        "foundingLocation": "Your City",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Customer Service",
+            "telephone": "+1-800-TIMO4D",
+            "email": "support@timo4d.site",
+            "areaServed": "US",
+            "availableLanguage": ["en"]
+        }
+    }
+    </script>
+    
+    <title>Timo4D - Premium Online Supermarket & Grocery Delivery | Fresh Food & Quality Products</title>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        
+        /* Header & Navigation */
+        header {
+            background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%);
+            color: white;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 800;
+            letter-spacing: 1px;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s;
+            font-weight: 500;
+        }
+        
+        .nav-links a:hover {
+            opacity: 0.8;
+        }
+        
+        .cta-button {
+            background: white;
+            color: #2ecc71;
+            padding: 0.7rem 1.5rem;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+            border: none;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%);
+            color: white;
+            padding: 6rem 2rem;
+            text-align: center;
+        }
+        
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            font-weight: 800;
+            line-height: 1.2;
+        }
+        
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            opacity: 0.95;
+            font-weight: 300;
+        }
+        
+        .hero-cta {
+            display: inline-block;
+            background: white;
+            color: #2ecc71;
+            padding: 1rem 2.5rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1rem;
+            transition: all 0.3s;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+        }
+        
+        .hero-cta:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+        }
+        
+        /* Main Content */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        
+        /* Features Section */
+        .features {
+            padding: 5rem 2rem;
+            background: white;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            color: #2ecc71;
+            font-weight: 800;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+        
+        .feature-card {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            transition: all 0.3s;
+            border: 2px solid transparent;
+        }
+        
+        .feature-card:hover {
+            border-color: #2ecc71;
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(46, 204, 113, 0.1);
+        }
+        
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .feature-card h3 {
+            color: #2ecc71;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+        
+        .feature-card p {
+            color: #666;
+            font-size: 0.95rem;
+        }
+        
+        /* Why Choose Us (EEAT Section) */
+        .why-choose-us {
+            padding: 5rem 2rem;
+            background: linear-gradient(135deg, #f8f9fa 0%, #ecf0f1 100%);
+        }
+        
+        .eeat-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .eeat-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+        
+        .eeat-card h3 {
+            color: #2ecc71;
+            margin-bottom: 1rem;
+            font-size: 1.4rem;
+        }
+        
+        .eeat-card ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .eeat-card li {
+            padding: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+            color: #555;
+        }
+        
+        .eeat-card li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #2ecc71;
+            font-weight: bold;
+        }
+        
+        /* Product Categories */
+        .categories {
+            padding: 5rem 2rem;
+            background: white;
+        }
+        
+        .category-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        .category-card {
+            background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+        
+        .category-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 30px rgba(46, 204, 113, 0.3);
+        }
+        
+        .category-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .category-card p {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+        
+        /* Testimonials */
+        .testimonials {
+            padding: 5rem 2rem;
+            background: linear-gradient(135deg, #f8f9fa 0%, #ecf0f1 100%);
+        }
+        
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .testimonial-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+        
+        .rating {
+            color: #f39c12;
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+        
+        .testimonial-text {
+            color: #555;
+            margin-bottom: 1rem;
+            font-style: italic;
+        }
+        
+        .testimonial-author {
+            font-weight: 600;
+            color: #2ecc71;
+        }
+        
+        /* Footer */
+        footer {
+            background: #2c3e50;
+            color: white;
+            padding: 3rem 2rem 1rem;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .footer-section h4 {
+            color: #2ecc71;
+            margin-bottom: 1rem;
+        }
+        
+        .footer-section ul {
+            list-style: none;
+        }
+        
+        .footer-section a {
+            color: #bdc3c7;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-section a:hover {
+            color: #2ecc71;
+        }
+        
+        .footer-bottom {
+            border-top: 1px solid #34495e;
+            padding-top: 2rem;
+            text-align: center;
+            color: #95a5a6;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .nav-links {
+                display: none;
+            }
+            
+            .section-title {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <nav>
+            <div class="logo">🛒 Timo4D</div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#why-us">Why Us</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+                <li><a href="#contact" class="cta-button">Shop Now</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Fresh Groceries, Quality Food - Delivered Fast</h1>
+            <p>Timo4D is your trusted online supermarket for quality products at great prices. Order your daily essentials with confidence.</p>
+            <a href="#shop" class="hero-cta">Start Shopping at Timo4D</a>
+        </div>
+    </section>
+    
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">Why Shop at Timo4D Supermarket</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🚚</div>
+                    <h3>Fast Delivery</h3>
+                    <p>Get your groceries delivered within 24 hours. Reliable and quick service across your area.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">✅</div>
+                    <h3>Quality Guarantee</h3>
+                    <p>All products are carefully selected and verified for freshness and quality.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💰</div>
+                    <h3>Best Prices</h3>
+                    <p>Competitive pricing on all products. Special discounts and offers every week.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Secure Shopping</h3>
+                    <p>Safe payment methods and secure checkout process for your peace of mind.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">👥</div>
+                    <h3>Expert Support</h3>
+                    <p>Dedicated customer service team ready to help you 24/7.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌿</div>
+                    <h3>Fresh Selection</h3>
+                    <p>Wide variety of fresh produce, organic items, and quality food products.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Why Choose Us - EEAT Section -->
+    <section class="why-choose-us" id="why-us">
+        <div class="container">
+            <h2 class="section-title">Experience, Expertise & Trustworthiness</h2>
+            <div class="eeat-grid">
+                <div class="eeat-card">
+                    <h3>📊 Experience</h3>
+                    <ul>
+                        <li>Years of supermarket expertise</li>
+                        <li>Trusted by thousands of customers</li>
+                        <li>Proven track record of quality service</li>
+                        <li>Industry leaders in online grocery</li>
+                    </ul>
+                </div>
+                <div class="eeat-card">
+                    <h3>🎓 Expertise</h3>
+                    <ul>
+                        <li>Knowledgeable about all products</li>
+                        <li>Expert recommendations for your needs</li>
+                        <li>Professional sourcing practices</li>
+                        <li>Quality control specialists on team</li>
+                    </ul>
+                </div>
+                <div class="eeat-card">
+                    <h3>🤝 Trustworthiness</h3>
+                    <ul>
+                        <li>Verified customer reviews (4.8/5 stars)</li>
+                        <li>Transparent pricing, no hidden fees</li>
+                        <li>Certified and regulated business</li>
+                        <li>Your satisfaction is guaranteed</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Product Categories -->
+    <section class="categories" id="categories">
+        <div class="container">
+            <h2 class="section-title">Shop by Category</h2>
+            <div class="category-grid">
+                <div class="category-card">
+                    <h3>🥬 Fresh Produce</h3>
+                    <p>Vegetables, Fruits & Herbs</p>
+                </div>
+                <div class="category-card">
+                    <h3>🥩 Meat & Fish</h3>
+                    <p>Premium Quality Proteins</p>
+                </div>
+                <div class="category-card">
+                    <h3>🥛 Dairy & Eggs</h3>
+                    <p>Fresh Milk & Dairy Products</p>
+                </div>
+                <div class="category-card">
+                    <h3>🍞 Bakery</h3>
+                    <p>Fresh Bread & Pastries</p>
+                </div>
+                <div class="category-card">
+                    <h3>🛢️ Pantry</h3>
+                    <p>Oils, Spices & Essentials</p>
+                </div>
+                <div class="category-card">
+                    <h3>🍯 Organic</h3>
+                    <p>Certified Organic Products</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="rating">★★★★★</div>
+                    <p class="testimonial-text">"Excellent service! Fresh products and fast delivery. Timo4D is my go-to supermarket for all my grocery needs."</p>
+                    <p class="testimonial-author">- Sarah Johnson</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="rating">★★★★★</div>
+                    <p class="testimonial-text">"Best prices on quality groceries. Customer service is responsive and helpful. Highly recommended!"</p>
+                    <p class="testimonial-author">- Michael Chen</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="rating">★★★★★</div>
+                    <p class="testimonial-text">"I love shopping at Timo4D. Everything is always fresh, and the delivery is super quick. Keep up the great work!"</p>
+                    <p class="testimonial-author">- Emma Rodriguez</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Call to Action -->
+    <section style="padding: 4rem 2rem; background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%); color: white; text-align: center;">
+        <div class="container">
+            <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Ready to Experience Better Grocery Shopping?</h2>
+            <p style="font-size: 1.1rem; margin-bottom: 2rem;">Join thousands of satisfied customers at Timo4D supermarket today!</p>
+            <a href="#shop" class="hero-cta">Start Your Order Now</a>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>About Timo4D</h4>
+                    <p>Timo4D is your trusted online supermarket offering fresh groceries, quality food products, and daily essentials with fast, reliable delivery.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#categories">Categories</a></li>
+                        <li><a href="#testimonials">Reviews</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li><a href="#">Track Order</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><a href="tel:+1-800-TIMO4D">📞 +1-800-TIMO4D</a></li>
+                        <li><a href="mailto:support@timo4d.site">📧 support@timo4d.site</a></li>
+                        <li>🕐 Available 24/7</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Timo4D Supermarket. All rights reserved. | <a href="#" style="color: #2ecc71;">Privacy Policy</a> | <a href="#" style="color: #2ecc71;">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
